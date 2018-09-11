@@ -13,7 +13,12 @@ public class Tester
     public static void main(String [] args)
     {
         System.out.println("Hello World");
+        System.out.println(new LeftArm());
         System.out.println(new GrippingArm());
+        
+        
+       StarFish fish1 = new StarFish();
+       PisasterBrevispinus star1 = new PisasterBrevispinus();
     }
     
 }
