@@ -21,6 +21,13 @@ public class PisasterBrevispinus extends StarFish
         System.out.println("Something else for " + thing);
     }
 	
+	// does not have a super method that uses a short
+//	@Override
+//	public void arm(short s)
+//	{
+//	    System.out.println("Something else for " + s);
+//	}
+	
     public void leg(String s)
     {
         System.out.println("must be Patrick ... only Patrick ... " + s);
