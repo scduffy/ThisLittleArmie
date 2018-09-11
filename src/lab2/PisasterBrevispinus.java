@@ -2,6 +2,7 @@ package lab2;
 
 public class PisasterBrevispinus extends StarFish
 {
+
 	@Override
     public void arm(int thing)
     {
