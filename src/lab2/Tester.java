@@ -13,17 +13,22 @@ public class Tester
     public static void main(String [] args)
     {
         System.out.println("Hello World");
+        System.out.println("StarFish arm stuff: \n=====================================");
         System.out.println(new LeftArm());
         System.out.println(new GrippingArm());
         System.out.println(new StarFish());
         StarFish star1 = new StarFish();
         star1.arm(1);
         star1.arm(1.2);
-        star1.arm('yeet');
+        star1.arm("yeet");
         star1.arm(new LeftArm());
         star1.arm(new GrippingArm());
-        StarFish fish1 = new StarFish();
-       PisasterBrevispinus star1 = new PisasterBrevispinus();
+        PisasterBrevispinus star2 = new PisasterBrevispinus();
+        System.out.println("\nPisasterBrevispinus arm stuff: \n=====================================");
+        star2.arm(1);
+        star2.arm("yeet");
+        star2.arm(new GrippingArm());
+        star2.leg("squidward");
     }
     
 }

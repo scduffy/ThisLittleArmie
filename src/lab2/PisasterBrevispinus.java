@@ -2,17 +2,20 @@ package lab2;
 
 public class PisasterBrevispinus extends StarFish
 {
-    public void add(int thing)
+    @Override
+    public void arm(int thing)
     {
         System.out.println("Something else for " + thing);
     }
     
-    public void add(String thing)
+    @Override
+    public void arm(String thing)
     {
         System.out.println("Something else for " + thing);
     }
     
-    public void add(GrippingArm thing)
+    @Override
+    public void arm(GrippingArm thing)
     {
         System.out.println("Something else for " + thing);
     }
