@@ -1,7 +1,9 @@
 package lab2;
 
+//Step 5
 public class LeftArm 
 {	
+    //Step 15
 	@Override
 	public String toString()
 	{

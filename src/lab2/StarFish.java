@@ -1,5 +1,6 @@
 package lab2;
 
+//Step 7
 public class StarFish
 {
     public void arm(int thing)
